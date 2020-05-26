@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "182805132197",
+    "firebase_url": "https://jini-6fa94.firebaseio.com",
+    "project_id": "jini-6fa94",
+    "storage_bucket": "jini-6fa94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182805132197:android:ceb739f196a8fc12d1ae4c",
+        "android_client_info": {
+          "package_name": "com.example.jini"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182805132197-5415tvij9bd7uo0latvdejgav2uj2kiq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jini",
+            "certificate_hash": "ce2ae205b59870f04bd0f8525afe6099f90e443c"
+          }
+        },
+        {
+          "client_id": "182805132197-enk182qkkf1omma3sqdkjagk095doj7c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jini",
+            "certificate_hash": "3e69fe72bf399178d0a437e07a654c205bcd6618"
+          }
+        },
+        {
+          "client_id": "182805132197-3f3jr5hgn148sdjnf4bm9ovuaol9g3hp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCifHrg4QGtN8P9E5q93HxaZldFXmkKGUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182805132197-3f3jr5hgn148sdjnf4bm9ovuaol9g3hp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
