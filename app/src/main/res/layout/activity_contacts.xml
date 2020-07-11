@@ -16,7 +16,7 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar_contacts"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="60dp">
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -25,7 +25,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Contacts"
-                    android:textSize="30dp"
+                    android:textSize="25dp"
                     android:textStyle="bold"
                     android:textColor="@android:color/black">
                 </TextView>
@@ -57,10 +57,12 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="#FFFFFF"
+        android:layout_height="60dp"
         android:layout_alignParentBottom="true"
+        android:background="#FFFFC107"
+        app:itemTextColor="@android:color/black"
+        app:itemIconTint="@android:color/black"
         app:menu="@menu/bottom_nav_menu" />
 
 
-  </RelativeLayout>
+</RelativeLayout>

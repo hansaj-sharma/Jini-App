@@ -22,6 +22,11 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.hbb20.CountryCodePicker;
 
 import java.util.concurrent.TimeUnit;
@@ -138,9 +143,12 @@ public class RegistrationActivity extends AppCompatActivity {
         super.onStart();
 
         FirebaseUser firebaseUser= FirebaseAuth.getInstance().getCurrentUser();
+
+
+
+
         if(firebaseUser!= null ){
-            //Intent homeIntend = new Intent(RegistrationActivity.this, ContactsActivity.class);
-            //startActivity(homeIntend);
+
             startActivity(new Intent(RegistrationActivity.this, ContactsActivity.class));
             finish();
         }
@@ -178,4 +186,5 @@ public class RegistrationActivity extends AppCompatActivity {
         finish();
 
     }
+
 }

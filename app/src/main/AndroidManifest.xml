@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RegistrationActivity"/>
+        <activity android:name=".RefreshActivity"></activity>
+        <activity android:name=".RegistrationActivity" />
         <activity android:name=".VideoActivity" />
         <activity android:name=".CallingActivity" />
         <activity android:name=".ProfileActivity" />

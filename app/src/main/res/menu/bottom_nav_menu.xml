@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
 
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/title_home" />
+        android:title="@string/title_home"
+        />
 
     <item
         android:id="@+id/navigation_settings"
         android:icon="@drawable/settings"
-        android:title="settings" />
+        android:title="Setting" />
 
     <item
         android:id="@+id/navigation_notifications"
@@ -17,7 +19,9 @@
         android:title="@string/title_notifications" />
     <item
         android:id="@+id/navigation_logout"
-        android:icon="@drawable/logout"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:iconTintMode="add"
+        android:iconTint="@android:color/white"
         android:title="logout" />
 
 </menu>

@@ -15,7 +15,7 @@
         android:id="@+id/card_view1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#DC050505">
+        android:background="#E5050505">
 
 
         <ImageView
@@ -39,9 +39,9 @@
             android:gravity="center_horizontal"
             android:text="user name"
             android:textAlignment="center"
-
-            android:textColor="#FFFFFF"
-            android:textSize="30dp">
+            android:textColor="@color/ic_launcher_background"
+            android:textSize="30dp"
+            android:textStyle="bold">
 
         </TextView>
 
@@ -55,9 +55,9 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="80dp"
             android:layout_marginBottom="10dp"
-            android:background="@color/colorPrimary"
+            android:background="#4EADF8"
             android:drawableTop="@drawable/video_call"
-            android:drawableTint="@android:color/white"
+            android:drawableTint="@android:color/black"
             android:padding="5dp">
 
         </Button>
@@ -72,11 +72,11 @@
             android:layout_marginTop="5dp"
             android:layout_marginRight="80dp"
             android:layout_marginBottom="10dp"
+            android:background="#8BC34A"
+            android:padding="5dp"
             android:text="Delete Contact"
-            android:textStyle="bold"
-            android:textColor="@android:color/white"
-            android:background="@android:color/holo_red_dark"
-            android:padding="5dp">
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
 
         </Button>
 

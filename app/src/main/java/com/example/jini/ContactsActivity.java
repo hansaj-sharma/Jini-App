@@ -284,4 +284,11 @@ public class ContactsActivity extends AppCompatActivity {
         }
     }
 
+
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+
+    }
 }
